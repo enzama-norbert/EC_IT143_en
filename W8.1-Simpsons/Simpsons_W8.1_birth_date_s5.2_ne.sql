@@ -1,0 +1,9 @@
+DROP TABLE IF EXISTS dbo.Birth_Date;
+GO
+
+CREATE TABLE dbo.Birth_Date
+(Name   VARCHAR(50) NOT NULL,
+ Birth_Date date NOT NULL,
+ CONSTRAINT PK_Birth_Date PRIMARY KEY CLUSTERED(Name ASC)
+);
+GO
